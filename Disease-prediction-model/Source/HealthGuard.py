@@ -8,9 +8,9 @@ st.set_page_config(page_title="HealthGuard AI", page_icon="🏥", layout="wide")
 
 # Model Paths (Update these paths)
 MODEL_PATHS = {
-    'diabetes': r'D:\AICTE-Internship\Disease-prediction-model\Source\Model\diabetes_model.pkl',
-    'heart': r'D:\AICTE-Internship\Disease-prediction-model\Source\Model\heart_model.pkl',
-    'parkinson': r'D:\AICTE-Internship\Disease-prediction-model\Source\Model\parkinsons_model.pkl'
+    'diabetes': 'Model/diabetes_model.pkl',
+    'heart': 'Model/heart_model.pkl',
+    'parkinson': 'Model/parkinsons_model.pkl'
 }
 # Load models with caching
 @st.cache_resource
