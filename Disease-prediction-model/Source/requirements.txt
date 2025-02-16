@@ -2,4 +2,3 @@ streamlit
 pandas
 pickle-mixin
 streamlit-option-menu
-os
