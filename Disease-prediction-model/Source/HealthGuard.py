@@ -2,15 +2,16 @@ import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
 import pandas as pd
+import os
 
 # Configuration
 st.set_page_config(page_title="HealthGuard AI", page_icon="🏥", layout="wide")
 
 # Model Paths (Update these paths)
 MODEL_PATHS = {
-    'diabetes': 'Model/diabetes_model.pkl',
-    'heart': 'Model/heart_model.pkl',
-    'parkinson': 'Model/parkinsons_model.pkl'
+    'diabetes': os.path.join(os.path.dirname(__file__),'Model/diabetes_model.pkl'),
+    'heart': os.path.join(os.path.dirname(__file__),'Model/heart_model.pkl'),
+    'parkinson': os.path.join(os.path.dirname(__file__),'Model/parkinsons_model.pkl')
 }
 # Load models with caching
 @st.cache_resource
