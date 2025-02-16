@@ -19,7 +19,7 @@ This project leverages **machine learning models** trained on medical datasets a
 ✅ Deployed as a **local web application**  
 
 ---
-
+Live Demo: 👉 [HealthGuard AI](https://healthguard-ai-disease-prediction-system-tmwhmdczpgnwebxvexryz.streamlit.app/)
 ## 🛠 Installation
 
 ### 1️⃣ Clone the repository
